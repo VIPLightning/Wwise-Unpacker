@@ -48,6 +48,7 @@ echo.
 set /P c=Should I delete BNKs and PCKs from the 'Game Files' folder [Y/N]?
 if /I "%c%" EQU "Y" goto :yes
 if /I "%c%" EQU "N" goto :hella_no
+goto :choice
 
 :yes
 
@@ -59,7 +60,6 @@ echo Files deleted, enjoy your unpacked audio! -/u/Vextil ;)
 :hella_no
 
 echo BNKs and PCKs kept, enjoy your unpacked audio! -/u/Vextil ;)
-goto :compress
 
 
 
