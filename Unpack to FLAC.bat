@@ -48,7 +48,6 @@ echo.
 set /P c=Should I delete BNKs and PCKs from the 'Game Files' folder [Y/N]?
 if /I "%c%" EQU "Y" goto :yes
 if /I "%c%" EQU "N" goto :hella_no
-goto :choice
 
 :yes
 
@@ -56,7 +55,6 @@ FOR %%e IN ("Game Files\*.PCK") DO (DEL "%%e")
 FOR %%f IN ("Game Files\*.BNK") DO (DEL "%%f")
 
 echo Files deleted, enjoy your unpacked audio! -/u/Vextil ;)
-goto :compress
 
 :hella_no
 
