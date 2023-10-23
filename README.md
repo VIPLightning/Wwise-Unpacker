@@ -5,7 +5,9 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
 
 **TODO List:**
  * Add batch script to make easier to change FLAC compression level 1-8
- * Rework the Unpack to MP3 batch script
+ * Rework the Unpack to MP3 batch script (Optional)
+ * Add Python support as an option to extract and decode videogame sounds/voices/OSTs (TBD)
+ * Redo how quickBMS extracts sounds and music; extracting to WAV using quickbnms will break. However extracting to .WEM will play music when using foobar2k
 
 The unpacking was tested on Genshin Impact.
 ---
