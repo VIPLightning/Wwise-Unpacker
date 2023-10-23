@@ -1,9 +1,9 @@
 "Tools\quickbms.exe" "Tools\wavescan.bms" "Game Files" "Tools\Decoding"
 FOR %%b IN ("Game Files\*.BNK") DO ("Tools\bnkextr.exe" "%%b" & MOVE *.wav "Tools\Decoding")
-FOR %%c IN (Tools\Decoding\*.WAV) DO ("Tools\vgmstream-win\test.exe" -o "%%c2" "%%c" & DEL "%%c")
-move Tools\Decoding\*.wav2 WAV
+FOR %%c IN (Tools\Decoding\*.wem) DO ("Tools\vgmstream-cli.exe" -o "%%c2" "%%c")
+move Tools\Decoding\*.wem2 "WAV"
 cd WAV
-ren *.wav2 *.wav
+ren *.wem2 *.WAV
 cd ..
 
 @echo off
