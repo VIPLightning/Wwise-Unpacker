@@ -7,6 +7,7 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
  * Add Linux OS support
    * Build Linux Shell scripts
    * Include Linux Tools binaries
+   * Test it in a Linux environment
  * Add batch script to make easier to change FLAC compression level 1-8 √
  * Rework the Unpack to MP3 batch script (Optional) √
  * Add Python support as an option to extract and decode videogame sounds/voices/OSTs (TBD)
