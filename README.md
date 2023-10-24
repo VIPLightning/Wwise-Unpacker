@@ -12,8 +12,9 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
 The unpacking was tested on Genshin Impact.
 ---
 **Special Thanks To:**
-* [VGMStream](https://github.com/vgmstream/vgmstream)
-* [Vextil/Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker)
-* [FLAC](https://xiph.org/flac/)
-* [QuickBMS](https://aluigi.altervista.org/quickbms.htm)
+* [expl0it3r](https://github.com/eXpl0it3r/bnkextr) for the bnkextr v2.0
+* [VGMStream](https://github.com/vgmstream/vgmstream) r1879
+* [Vextil/Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) for sharing his original project
+* [FLAC](https://xiph.org/flac/) v1.4.3
+* [QuickBMS](https://aluigi.altervista.org/quickbms.htm) v0.12.0.0
 * [Trust04zh](https://github.com/Trust04zh/Wwise-Unpacker) for the unpack to wav bat
