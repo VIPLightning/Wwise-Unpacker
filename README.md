@@ -9,7 +9,7 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
    * Include Linux Tools binaries
    * Test it in a Linux environment
  * Add batch script to make easier to change FLAC compression level 1-8 √
-   *Merge with the unpacking script. 
+   * Merge with the unpacking script. 
  * Rework the Unpack to MP3 batch script (Optional) √
  * Add Python support as an option to extract and decode videogame sounds/voices/OSTs (TBD)
  * Rework how quickBMS extracts sounds and music; extracting to WAV using quickBMS will break playback. However extracting to .WEM will play music and allow you to convert .wem files when using foobar2k √
