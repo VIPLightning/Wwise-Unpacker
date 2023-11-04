@@ -9,7 +9,7 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
    * Include Linux Tools binaries
    * Test it in a Linux environment
   
-  *The idea behind supporting Linux, since Genshin Impact and some of the other games are supported through WINE, would be this eliminates the need to rely on Windows in order to unpack and convert game files.*
+  *The idea behind supporting Linux, since Genshin Impact and some of the other games are supported through WINE, would be this eliminates the need to rely on Windows in order to unpack and convert game sound files.*
   
  * Add batch script to make easier to change FLAC compression level 1-8 √
    * Merge with the unpacking script. 
