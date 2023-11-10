@@ -16,10 +16,10 @@ _Yum_
 
 
 **TODO List:**
- * Add Linux OS support
-   * Build Linux Shell scripts
+ * Add Linux OS support √
+   * Build Linux Shell scripts √
    * Include Linux Tools binaries √
-   * Test it in a Linux environment
+   * Test it in a Linux environment √ (Tested on Debian 12 | Kernel 6.1.0)
   
   *The idea behind supporting Linux, since Genshin Impact and some of the other games are supported through WINE, would be this eliminates the need to rely on Windows in order to unpack and convert game sound files.*
  
