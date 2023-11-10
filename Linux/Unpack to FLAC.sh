@@ -11,7 +11,7 @@ cat tornado.txt
 echo
 echo "-------------------------------------------------------------"
 
-echo "Unpack finished! Files should be in the 'WAV' folder"
+echo "Unpack finished! Files should be in the 'FLAC' folder"
 
 echo "-------------------------------------------------------------"
 echo
