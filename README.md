@@ -9,10 +9,10 @@ Do Carefully consider that FLAC, vorbis, and ffmpeg are included inside of major
 _APT_
 > sudo apt update                      
 >
-> sudo apt install rename flac ffmpeg vorbis-tools
+> xargs sudo apt -y install < packages.txt
 
 _Yum_
-> sudo yum install rename flac ffmpeg vorbis-tools
+> xargs sudo yum -y install < packages.txt
 
 
 **TODO List:**
