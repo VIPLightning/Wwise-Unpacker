@@ -1,0 +1,6 @@
+vlc
+rename 
+flac 
+ffmpeg 
+vorbis-tools
+libavcodec-extra
