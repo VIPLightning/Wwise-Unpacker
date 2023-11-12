@@ -9,10 +9,17 @@ Do Carefully consider that FLAC, vorbis, and ffmpeg are included inside of major
 _APT_
 > sudo apt update                      
 >
-> xargs sudo apt -y install < packages.txt
+> xargs sudo apt -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
+
+_Pacman_
+> sudo pacman -Syu
+>
+> pacman -S $(echo $(cat ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt | cut -d' ' -f1))
 
 _Yum_
-> xargs sudo yum -y install < packages.txt
+> sudo yum update 
+>
+> xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
 
 
 **TODO List:**
@@ -38,3 +45,5 @@ The unpacking was tested on Genshin Impact.
 * [FLAC](https://xiph.org/flac/) v1.4.3
 * [QuickBMS](https://aluigi.altervista.org/quickbms.htm) v0.12.0.0
 * [Trust04zh](https://github.com/Trust04zh/Wwise-Unpacker) for the unpack to wav bat
+* [hcs64](https://github.com/hcs64/ww2ogg) for the ww2ogg source code
+* [April](https://github.com/april/revorb) for the revorb source code on non-Windows platforms
