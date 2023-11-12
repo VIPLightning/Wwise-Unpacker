@@ -45,5 +45,5 @@ The unpacking was tested on Genshin Impact.
 * [FLAC](https://xiph.org/flac/) v1.4.3
 * [QuickBMS](https://aluigi.altervista.org/quickbms.htm) v0.12.0.0
 * [Trust04zh](https://github.com/Trust04zh/Wwise-Unpacker) for the unpack to wav bat
-* [hcs64](https://github.com/hcs64/ww2ogg) for the ww2ogg source code
+* [hcs64](https://github.com/hcs64/ww2ogg) for the ww2ogg 0.24 source code
 * [April](https://github.com/april/revorb) for the revorb source code on non-Windows platforms
