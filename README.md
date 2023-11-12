@@ -7,20 +7,28 @@ What makes this project stand out? The idea was to add support for "FLAC" and co
 Do Carefully consider that FLAC, vorbis, and ffmpeg are included inside of majority of linux distributions. If your OS does NOT have the following binaries, consider using the following commands depending on what distro or Package Manager you are using.
 
 _APT_
-> sudo apt update                      
->
+```
+sudo apt update                      
+```
+```
 > xargs sudo apt -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
+```
 
 _Pacman_
-> sudo pacman -Syu
->
-> pacman -S $(echo $(cat ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt | cut -d' ' -f1))
+```
+sudo pacman -Syu
+```
+```
+pacman -S $(echo $(cat ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt | cut -d' ' -f1))
+```
 
 _Yum_
-> sudo yum update 
->
-> xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
-
+```
+sudo yum update 
+```
+```
+xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
+```
 
 **TODO List:**
  * Add Linux OS support √
