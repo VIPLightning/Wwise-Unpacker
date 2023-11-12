@@ -11,7 +11,7 @@ _APT_
 sudo apt update                      
 ```
 ```
-> xargs sudo apt -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
+xargs sudo apt -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
 ```
 
 _Pacman_
