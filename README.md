@@ -36,7 +36,7 @@ xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.t
    * Include Linux Tools binaries √
    * Test it in a Linux environment √ (Tested on Debian 12 | Kernel 6.1.0)
   
-  *The idea behind supporting Linux, since Genshin Impact and some of the other games are supported through WINE, would be this eliminates the need to rely on Windows in order to unpack and convert game sound files.*
+  *The idea behind supporting Linux, since Genshin Impact and some of the other games are supported through WINE, would be this eliminates the need to rely on Windows but rather make it universally available in order to unpack and convert game sound files.*
  
  * Add batch script to make easier to change FLAC compression level 1-8 √
    * Merge with the unpacking script. 
