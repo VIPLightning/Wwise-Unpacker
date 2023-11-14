@@ -3,7 +3,7 @@
 ./Tools/quickbms  "Tools/wavescan.bms" "Game Files" "Tools/Decoding"
 for c in Tools/Decoding/*.wem; do "./Tools/vgmstream-cli" -o "?f.wem2" $c; done
 for d in Tools/Decoding/*.wem2; do mv "$d" "MP3"; done
-for f in MP3/*.wem2 do ffmpeg -i $f  -acodec libmp3lame -b:a 320k -ac 2 -ar 44100 "MP3/%%~nd.mp3"; done
+for f in MP3/*.wem2 do ffmpeg -i $f -acodec libmp3lame -b:a 320k -ac 2 -ar 44100 "MP3/%%~nd.mp3"; done
 rm MP3/*.wem2
 
 cat tornado.txt
