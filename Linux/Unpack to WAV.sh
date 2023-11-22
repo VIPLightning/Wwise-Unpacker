@@ -1,7 +1,10 @@
 #! /bin/bash
 
 ./Tools/quickbms  "Tools/wavescan.bms" "Game Files" "Tools/Decoding"
+for b in Game\ Files/*.bnk; do "./Tools/bnkextr" $b; done
+mv Game\ Files/*.wem Tools/Decoding
 for c in Tools/Decoding/*.wem; do "./Tools/vgmstream-cli" -o "?f.wem2" $c; done
+rm Tools/Decoding/*.wem
 for d in Tools/Decoding/*.wem2; do mv "$d" "WAV"; done
 for f in WAV/*.wem2; do rename -f 's/\.wem2/\.wav/' $f; done
 
@@ -35,5 +38,5 @@ if [ $? -eq 0 ]
 then
    echo "Exit code returned 0! Successful!"
 else 
-   echo "Exit code returned $?! Houston we have a problem!"
+   echo "Exit code returned $?! Screenshot the issue and send it to me!"
 fi

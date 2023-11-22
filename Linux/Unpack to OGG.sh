@@ -1,6 +1,8 @@
 #! /bin/bash
 
 ./Tools/quickbms  "Tools/wavescan.bms" "Game Files" "Tools/Decoding"
+for b in Game\ Files/*.bnk; do "./Tools/bnkextr" $b; done
+mv Game\ Files/*.wem Tools/Decoding
 for c in Tools/Decoding/*.wem; do ./Tools/ww2ogg "$c" --pcb Tools/packed_codebooks.bin; done
 rm Tools/Decoding/*.wem
 for d in Tools/Decoding/*.OGG; do revorb "$d"; done
@@ -34,5 +36,5 @@ if [ $? -eq 0 ]
 then
    echo "Exit code returned 0! Successful!"
 else 
-   echo "Exit code returned $?! Houston we have a problem!"
+   echo "Exit code returned $?! Screenshot the issue and send it to me!"
 fi
