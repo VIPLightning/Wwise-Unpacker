@@ -1,4 +1,3 @@
-vlc
 rename 
 flac 
 ffmpeg 
