@@ -4,7 +4,7 @@ This github project is a fork of [Vextil/Wwise-Unpacker](https://github.com/Vext
 What makes this project stand out? The idea was to add support for "FLAC" and convert your game soundtracks, voices, and, sound effects to a lossless and open-source file extension without any sacrifices to your storage space unlike WAV and its proprietary nature. And as for MP3 and OGG, despite its compression, the format eventually loses information making these two not viable in the long run. That's where FLAC comes in allowing the end user to encode the ssame file and still retains great sound quality. I have not noticed the sound quality diminishing after testing the differences when playbacking songs at 24 bits per sample @ 44khz (level 5 default) vs. 16 bits per sample at 48khz (level 8). FLAC fills in many of the gaps that WAV, MP3, and OGG cannot do. 
 
 # Linux Users Beware
-Do Carefully consider that FLAC, vorbis, and ffmpeg are included inside of majority of linux distributions. If your OS does NOT have the following binaries, consider using the following commands depending on what distro or Package Manager you are using.
+Do Carefully consider that FLAC, vorbis, and ffmpeg are included inside of majority of linux distributions. If your OS does NOT have the following binaries, consider using one of the commands below before running one of the unpacking scripts depending on what distro or Package Manager you are using.
 
 _APT_
 ```
