@@ -39,34 +39,44 @@ goto :compress
 :fast
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" --fast & DEL "%%d")
+goto choice
 
 :2
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -2 & DEL "%%d")
+goto choice
 
 :3
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -3 & DEL "%%d")
+goto choice
 
 :4
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -4 & DEL "%%d")
+goto choice
 
 :5
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -5 & DEL "%%d")
+goto choice
 
 :6
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -6 & DEL "%%d")
+goto choice
 
 :7
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" -f -7 & DEL "%%d")
+goto choice
 
 :best
 
 FOR %%d IN (Tools\Decoding\*.WAV) DO ("Tools\flac.exe" "%%d" --best & DEL "%%d")
+goto choice
+
+:choice
 
 MOVE Tools\Decoding\*.FLAC "FLAC"
 
@@ -102,7 +112,6 @@ echo Unpack finished! Files should be in the 'FLAC' folder
 echo -------------------------------------------------------------
 echo.
 
-:choice
 
 set /P c=Should I delete BNKs and PCKs from the 'Game Files' folder [Y/N]?
 if /I "%c%" EQU "Y" goto :yes
