@@ -47,8 +47,6 @@ xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.t
 The unpacking was tested on Genshin Impact.
 ---
 **Special Thanks To:**
-* [knik0](https://github.com/knik0/faad2) For the Free Advanced Audio Decoder v2.8.6
-* [knik0](https://github.com/knik0/faac) For the Free Advanced Audio Decoder v1.30
 * [expl0it3r](https://github.com/eXpl0it3r/bnkextr) for the bnkextr v2.0
 * [VGMStream](https://github.com/vgmstream/vgmstream) r1879
 * [Vextil/Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) for sharing his original project
