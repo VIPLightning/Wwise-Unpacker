@@ -22,7 +22,7 @@ echo
 read -p "Should I delete BNKs and PCKs from the Game Files folder? [Y/N]" ans;
 case $ans in
   y|Y) 
-     for e in "Game Files/*.PCK"; do rm $e; done 
+     for e in Game\ Files/*.PCK"; do rm $e; done 
      echo "Files deleted, enjoy your unpacked audio! -/u/Vextil ;)";;
      
   n|N)
