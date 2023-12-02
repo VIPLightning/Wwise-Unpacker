@@ -30,6 +30,11 @@ sudo yum update
 xargs sudo yum -y install < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
 ```
 
+_APK_ (Alpine Linux)
+```
+xargs sudo apk add < ~/Downloads/Wwise-Unpacker-Revamped/Linux/packages.txt
+```
+
 **TODO List:**
  * Add Linux OS support √
    * Build Linux Shell scripts √
