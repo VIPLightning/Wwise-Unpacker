@@ -30,11 +30,3 @@ case $ans in
   *) 
      echo "invalid option";;
 esac
-     
- 
-if [ $? -eq 0 ]
-then
-   echo "Exit code returned 0! Successful!"
-else 
-   echo "Exit code returned $?! Screenshot the issue and send it to me!"
-fi
