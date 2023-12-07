@@ -1,6 +1,4 @@
-_This project will be archived and moved to another site for the sake of protesting Github's 2FA mandate for "additional security measure." I will not bend over backwards to add more headache to signing in. 2FA has been proven to be much more of a security risk like what 
-happened to Epic Games store with the Russian hackers. Read up this [5 myths of 2FA](https://www.wired.com/insights/2013/04/five-myths-of-two-factor-authentication-and-the-reality/) if you are curious. I will update my README very soon and link my project on the 
-other site._
+_This project will be archived and moved to [Codeberg.org](https://codeberg.org/VIPLightning/Wwise-Unpacker-Revamped) for the sake of protesting Github's 2FA mandate for "additional security measure." I will not bend over backwards to add more headache to signing in. 2FA has been proven to be much more of a security risk like what happened to 100 million Epic Games users that were hacked by the Russians. Read up the [5 myths of 2FA](https://www.wired.com/insights/2013/04/five-myths-of-two-factor-authentication-and-the-reality/) if you are curious. My README has been updated and I linked my project to the other site. I shall enjoy with what power I have left on my account until December 14th when github locks it and shit hits the fan as github will soon make itself a valuable target to many bad hackers._
 
 
 # Wwise-Unpacker-Revamped
