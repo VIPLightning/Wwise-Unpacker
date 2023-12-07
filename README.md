@@ -1,3 +1,8 @@
+# This project will be archived and moved to Gitlab for the sake of protesting Github's 2FA mandate for "additional security measure." I will not bend over backwards to add more headache to signing in. 2FA has been proven to be much more of a security risk like what 
+# happened to Epic Games store with the Russian hackers. Read up this [5 myths of 2FA](https://www.wired.com/insights/2013/04/five-myths-of-two-factor-authentication-and-the-reality/) if you are curious. I will update my README very soon and link my project on the other 
+# site.
+
+
 # Wwise-Unpacker-Revamped
 This github project is a fork of [Vextil/Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) and an inspiration/cherrypicked of other people's work that have also forked his project.
 
