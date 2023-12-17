@@ -26,35 +26,35 @@ case $ans in
 
   1)
      for f in FLAC/*.wem2; do flac $f --fast; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   2)
      for f in FLAC/*.wem2; do flac $f -f -2; done
-     rm FLAC/*.wem2;done 
+     rm FLAC/*.wem2; done
      ;;
   3)
      for f in FLAC/*.wem2; do flac $f -f -3; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   4)
      for f in FLAC/*.wem2; do flac $f -f -4; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   5)
      for f in FLAC/*.wem2; do flac $f -f -5; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   6)
      for f in FLAC/*.wem2; do flac $f -f -6; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   7)
      for f in FLAC/*.wem2; do flac $f -f -7; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;;
   8)
      for f in FLAC/*.wem2; do flac $f --best; done
-     rm FLAC/*.wem2;done
+     rm FLAC/*.wem2; done
      ;; 
    *)
      echo "invalid option"
